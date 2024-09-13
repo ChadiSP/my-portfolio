@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <title>404 Not Found</title>
     <script type="text/javascript">
-      // Redirect all 404 requests to the index.html
+      // Redirect all 404 requests to the my-portfolio
       var redirect = function () {
         var path = window.location.pathname;
-        var newUrl = window.location.origin + '/index.html?redirect=' + path;
+        var newUrl = window.location.origin + '/my-portfolio?redirect=' + path;
         window.location.replace(newUrl);
       };
       redirect();
