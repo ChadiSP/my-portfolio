@@ -20,7 +20,7 @@ const About = ({}: Props) => {
     <section className="bg-slate-50">
       <div className="w-full bg-gray-600 drop-shadow-lg fixed z-50">
         <div className="w-5/6 h-20 mx-auto flex justify-between items-center">
-          <Link to="/">
+          <Link to="/my-portfolio">
             <div className="flex items-center text-3xl text-gray-20 cursor-pointer">
               Chadi Hsen
             </div>
