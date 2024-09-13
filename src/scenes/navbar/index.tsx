@@ -29,7 +29,7 @@ const Navbar = ({}: Props) => {
     <section className={`w-full bg-gray-600 drop-shadow-lg fixed z-50 `+(useIsTopOfPage() ? "translate-y-[0] ease-in-out transition duration-500" : "translate-y-[-300%] ease-in-out transition duration-500")}>
       <div className="w-5/6 h-20 mx-auto flex justify-between items-center">
         {/* LEFT SIDE */}
-        <Link to="/">
+        <Link to="/my-portfolio">
           <div className="flex items-center text-3xl text-gray-20 cursor-pointer">
             Chadi Hsen
           </div>
