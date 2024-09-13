@@ -35,7 +35,7 @@ const Hero = ({}: Props) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.75 }}
           >
-            <ActionButton target="sibidi">VIEW MY WORK...</ActionButton>
+            <ActionButton target="works">VIEW MY WORK...</ActionButton>
           </motion.div>
         </div>
       </div>
