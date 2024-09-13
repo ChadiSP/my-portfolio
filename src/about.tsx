@@ -30,7 +30,7 @@ const About = ({}: Props) => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 fill-gray-20 hover:fill-white transition duration-100 bxglow"
-                viewBox="0 0 50 50"
+                whileInView="0 0 50 50"
                 width="50px"
                 height="50px"
               >
